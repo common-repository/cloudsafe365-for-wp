@@ -1,0 +1,132 @@
+.cloudsafe365-badge {
+padding-top: 142px;
+height: 50px;
+width: 173px;
+font-weight: bold;
+font-size: 14px;
+text-align: center;
+margin: 0 -5px;
+background: url('../images/cloudsafe365.png') no-repeat;
+color: white;
+text-shadow: 0 -1px 0 rgba(22, 57, 81, 0.3);
+-moz-box-shadow: 0 0 6px rgba(0,0,0,0.3);
+-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.3);
+box-shadow: 0 0 6px rgba(0,0,0,0.3);
+border-radius: 5px;
+}
+.about-wrap .cloudsafe365-badge {
+position: absolute;
+top: 0;
+right: 0;
+}
+#wpbody-content .cloudsafe365 .metabox-holder {
+    padding-top: 0;
+}
+#wpbody-content .cloudsafe365 .postbox h3 {
+    cursor: default;
+}
+#wpbody-content .cloudsafe365 img {
+    max-width: 100%;
+}
+#cloudsafe365-dashboard.postbox-container .meta-box-sortables {
+    min-height:0;
+}
+#cloudsafe365-dashboard table td {
+    padding: 3px 0;
+}
+#cloudsafe365-dashboard table .legitimate {
+    color:black;
+}
+#cloudsafe365-dashboard table .white-robots {
+    color:black;
+}
+
+#cloudsafe365-dashboard table .non-legitimate {
+    color:black;
+}
+#cloudsafe365-dashboard table .total {
+    color:black;
+}
+#cloudsafe365-dashboard table .legitimate, #cloudsafe365-dashboard table .white-robots, #cloudsafe365-dashboard table .non-legitimate, #cloudsafe365-dashboard table .total {
+    padding-top: 6px;
+}
+#cloudsafe365-dashboard table .first {
+    font-size: 14px;
+    text-align: right;
+    color:black;
+    font-weight:bold;
+	text-align:right;
+}
+#cloudsafe365-dashboard p.sub {
+    color: #8F8F8F;
+    font-size: 14px;
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 5px;
+}
+#summary-filter {
+    font-size:12px;
+    width:170px;
+}
+#cloudsafe365-message {
+    background-color:#6AAFCF !important;
+    border: 1px solid #2A8CBA !important;
+    margin: 10px 0 0 2px;
+    overflow: hidden;
+    padding: 0 10px;
+    text-align: left;
+}
+#cloudsafe365-message h4 {
+    color: #FFFFFF;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",Verdana,"Bitstream Vera Sans",sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    margin:1.1em;
+    display:inline-block;
+    margin: 0 10px 10px 0;
+}
+#cloudsafe365-message p {
+    display:inline-block;
+}
+#cloudsafe365-message a.button-primary input{
+    -moz-transition-duration: 0.3s;
+    background: none repeat scroll 0 0 #f66c21;
+    border: 1px solid #f88242;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 2px #FFFFFF inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",Verdana,"Bitstream Vera Sans",sans-serif;
+    font-size: 16px !important;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    outline:medium none;
+}
+
+#cloudsafe365-message a.button-primary:hover {
+    background-color:#49c314;
+    border-color:#86d763;
+}
+#backup-options fieldset {
+    display: block;
+    padding: 0.5em 1em;
+    width: 30em;
+    border: 1px solid #DFDFDF;
+}
+
+#backup-options legend {
+    font-weight: bold;
+    color: #21759B;
+}
+
+#backup-options label {
+    float: left;
+    width: 6em;
+}
+
+#backup-options p.form {
+    margin: .2em 0;
+}
